@@ -12,6 +12,10 @@
 		9CB115172B2AE8B9005E2810 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB115162B2AE8B9005E2810 /* MainTabBarViewController.swift */; };
 		9CB1151C2B2AE8BB005E2810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB1151B2B2AE8BB005E2810 /* Assets.xcassets */; };
 		9CB1151F2B2AE8BB005E2810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB1151D2B2AE8BB005E2810 /* LaunchScreen.storyboard */; };
+		9CB115282B2AF374005E2810 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB115272B2AF374005E2810 /* HomeViewController.swift */; };
+		9CB1152A2B2AF38E005E2810 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB115292B2AF38E005E2810 /* UpcomingViewController.swift */; };
+		9CB1152D2B2AF3CC005E2810 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB1152C2B2AF3CC005E2810 /* SearchViewController.swift */; };
+		9CB1152F2B2AF3E1005E2810 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB1152E2B2AF3E1005E2810 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		9CB1151B2B2AE8BB005E2810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB1151E2B2AE8BB005E2810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB115202B2AE8BB005E2810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB115272B2AF374005E2810 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CB115292B2AF38E005E2810 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		9CB1152C2B2AF3CC005E2810 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		9CB1152E2B2AF3E1005E2810 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		9CB115112B2AE8B9005E2810 /* Netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				9CB115262B2AF362005E2810 /* Controllers */,
 				9CB115122B2AE8B9005E2810 /* AppDelegate.swift */,
 				9CB115142B2AE8B9005E2810 /* SceneDelegate.swift */,
 				9CB115162B2AE8B9005E2810 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				9CB115202B2AE8BB005E2810 /* Info.plist */,
 			);
 			path = "Netflix-clone";
+			sourceTree = "<group>";
+		};
+		9CB115262B2AF362005E2810 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CB115272B2AF374005E2810 /* HomeViewController.swift */,
+				9CB115292B2AF38E005E2810 /* UpcomingViewController.swift */,
+				9CB1152C2B2AF3CC005E2810 /* SearchViewController.swift */,
+				9CB1152E2B2AF3E1005E2810 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB1152D2B2AF3CC005E2810 /* SearchViewController.swift in Sources */,
 				9CB115172B2AE8B9005E2810 /* MainTabBarViewController.swift in Sources */,
+				9CB1152F2B2AF3E1005E2810 /* DownloadsViewController.swift in Sources */,
 				9CB115132B2AE8B9005E2810 /* AppDelegate.swift in Sources */,
 				9CB115152B2AE8B9005E2810 /* SceneDelegate.swift in Sources */,
+				9CB1152A2B2AF38E005E2810 /* UpcomingViewController.swift in Sources */,
+				9CB115282B2AF374005E2810 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
