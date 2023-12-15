@@ -33,7 +33,7 @@ class HeroHeaderUIView: UIView {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
-        imageView.image = UIImage(named: "petroo")
+        imageView.image = UIImage(named: "Petro-Şarj-Icon-White-1024x1024")
         return imageView
     }()
     
